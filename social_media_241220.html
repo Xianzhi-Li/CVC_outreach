@@ -13,6 +13,8 @@
             box-sizing: border-box;
             background-color: #f2ece1; /* Light beige background */
             font-family: 'Times New Roman', serif;
+          
+        
         }
         header {
             text-align: center;
@@ -64,7 +66,9 @@
 }
      a.button {
       text-align: center;
-      display: inline-block;
+          justify-content: center;
+         align-items: center;
+       display: flex; 
       padding: 10px 20px;
       font-size: 16px;
       color: #ffffff;
@@ -75,10 +79,17 @@
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
       cursor: pointer;
       transition: background-color 0.3s; /* Smooth color transition */
+        
     }
 
     a.button:hover {
       background-color: #eaa336; /* Change color on hover */
+    }
+    .button-container {
+      display: flex;
+      justify-content: center; /* Horizontally center the button */
+      align-items: top; /* Vertically center the button */
+     margin: 20px;
     }
     </style>
 </head>
@@ -99,8 +110,20 @@
         <li>Repairing the Pagoda and tackling water damage, with terrace work pending</li>
         <li>A 5-year “moon-shot” plan to complete the center: 120 student accommodations, new kitchen, and enhanced privacy for serious meditation</li>
     </ul>
+<div class="button-container">
+  <a href="https://xianzhi-li.github.io/CVC_outreach/email_241220" 
+     class="button">
+     Message from John & Gail Beary
+  </a>
+</div>
 
-<a href="https://example.com" class="button">Message from John & Gail Beary</a>
+<div class="button-container">
+  <a href="https://mahavana.dhamma.org/os/donate/" 
+     class="button">
+     Donate
+  </a>
+</div>
+
 
 <p> 
 </p>
